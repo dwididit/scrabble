@@ -16,7 +16,7 @@ brownie_points = score_word("brownie")
 
 player_to_points = {}
 
-# Iterate in player_to_words
+
 for player, words in player_to_words.items():
     player_points = 0
     for word in words:
